@@ -1,7 +1,8 @@
-html,body {
+html,
+body {
     position: relative;
     overflow-x: hidden;
-    background:  url('/static/images/img6.jpg');
+    background: url('/static/images/img6.jpg');
     width: 100% !important;
     height: 100vh;
     display: table;
@@ -14,12 +15,12 @@ html,body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-  
-body{
-      background-color: hsl(0, 0%, 98%);
-      font-family: 'raleway';
- }
-    
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'raleway';
+}
+
 
 form {
     width: 40%;
@@ -50,8 +51,8 @@ form {
     font-weight: 400;
 }
 
-@media(max-width: 767px){
-    form { 
+@media(max-width: 767px) {
+    form {
         width: 90%;
     }
 }
